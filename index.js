@@ -1,12 +1,12 @@
-const {parse, unistify} = require('./src/parse')
-const {parseFile} = require('./src/io')
-const jsonify = require('./src/jsonify')
-const stringify = require('./src/stringify')
+const { parse, unistify } = require("./src/parse");
+// const {parseFile} = require('./src/io')
+const jsonify = require("./src/jsonify");
+const stringify = require("./src/stringify");
 
 module.exports = {
   parse,
-  parseFile,
+  // parseFile,
   stringify,
   jsonify,
-  unistify,
-}
+  unistify
+};
